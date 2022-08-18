@@ -36,9 +36,5 @@ if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['t
 
 	if($mail->send()) {
 		echo 'Email enviado com sucesso.';
-	} else {
-		echo 'Email não enviado.';
 	}
-} else {
-	echo 'Não enviado: informar o email e a mensagem.';
 }
