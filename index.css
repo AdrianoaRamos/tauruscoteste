@@ -3,25 +3,21 @@
     padding: 0;
 }
 
-body{
-    background: rgba(0, 0, 0, 0.6) url(./img/fundo.jpg) no-repeat center center fixed;
-    background-size: cover;
-}
 
 .menu-completo{
-    background-color: #000000ab;
+    background-color: #1e879ac0;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .link-menu{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     width: 60%;
+    flex-wrap: wrap;
 }
 
 .link{
@@ -45,13 +41,3 @@ body{
     width: 10vw;
 }
 
-
-
-
-.front{    
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}

@@ -23,6 +23,7 @@
 
 .cards{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     height: 70vh;
@@ -99,4 +100,10 @@
     background-color: #1e879ae1;
     cursor: default;
     transition: ease-in .2s;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
 }

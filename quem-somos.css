@@ -6,10 +6,8 @@
 
 .texto-img-geral{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    justify-content: space-around;
 }
 
 .textos{
@@ -31,7 +29,7 @@
 }
 
 .logo-quem-somos{
-    width: 80%;
+    width: 100%;
 }
 
 .container-txt{

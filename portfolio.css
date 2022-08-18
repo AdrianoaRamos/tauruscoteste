@@ -27,21 +27,21 @@
     justify-content: space-evenly;
     align-items: center;
     height: 70vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .card-portfolio{
     height: 100%;
-    width: 25%;
+    width: 300px;
 }
 
-.card-pimenta{
+.card-bellas{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     height: 100%;
-    background-image: url(/img/barbearia.JPG);
-    background-color: black;
+    background-image: url(/img/logo-bellas.jpg);
+    background-color: #0C0D5F;
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -52,23 +52,23 @@
     margin-bottom: 50px;
 }
 
-.card-pimenta h3{
+.card-bellas h3{
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size: 2em;
     font-weight: 200;
-    background-color: #72942a;
+    background-color: #ffffff84;
     color: #FFFFFF;
     margin-bottom: 10px;
 }
 
 
-.card-academia{
+.card-maria{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     height: 100%;
-    background-image: url(/img/academia.JPG);
-    background-color: black;
+    background-image: url(/img/logo-maria.jpg);
+    background-color: #c36333;
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,22 +79,22 @@
     margin-bottom: 50px;
 }
 
-.card-academia h3{
+.card-maria h3{
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size: 2em;
     font-weight: 200;
-    background-color: #af0c00;
+    background-color: #ffffff84;
     color: #FFFFFF;
     margin-bottom: 10px;
 }
 
-.card-financeira{
+.card-sacolao{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     height: 100%;
-    background-image: url(/img/concept.JPG);
-    background-color: #0c1a34;
+    background-image: url(/img/sempre-verde.jpg);
+    background-color: #000000;
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -105,11 +105,11 @@
     margin-bottom: 10px;
 }
 
-.card-financeira h3{
+.card-sacolao h3{
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size: 2em;
     font-weight: 200;
-    background-color: #A38F3A;
+    background-color: #ffffff84;
     color: #FFFFFF;
     margin-bottom: 10px;
 }
