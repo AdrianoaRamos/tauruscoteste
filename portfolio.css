@@ -1,0 +1,124 @@
+.portfolio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.textos-portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.container-portfolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cards-portfolio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.card-portfolio{
+    height: 100%;
+    width: 25%;
+}
+
+.card-pimenta{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background-image: url(/img/barbearia.JPG);
+    background-color: black;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.card-pimenta h3{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    background-color: #72942a;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+
+.card-academia{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background-image: url(/img/academia.JPG);
+    background-color: black;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.card-academia h3{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    background-color: #af0c00;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.card-financeira{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background-image: url(/img/concept.JPG);
+    background-color: #0c1a34;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.card-financeira h3{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    background-color: #A38F3A;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.link-portfolio{
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}

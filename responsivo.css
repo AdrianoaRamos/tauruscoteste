@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.voltar-inicio{
+    text-decoration: none;
+    font-size: 2em;
+    color: #FFFFFF;
+    background-color: #1e879adb;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    box-shadow: 2px 3px 10px #333;
+}
